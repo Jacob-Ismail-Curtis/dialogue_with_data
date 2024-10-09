@@ -22,13 +22,6 @@ const MessageInput: React.FC = () => {
         placeholder="Type your message..."
         className="flex-grow p-2 border rounded"
       />
-      <button
-        type="submit"
-        className="ml-2 p-2 bg-primary-500 text-white rounded"
-        disabled={isLoadingAnswer}
-      >
-        Send
-      </button>
     </form>
   )
 }

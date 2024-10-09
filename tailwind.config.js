@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         gray: colors.slate,
         primary: {
-          50: '#e0f2eb',  // Lightest shade of LB Coated Core Green
+          50: '#E9F7F0',  // Lightest shade of LB Coated Core Green
           100: '#c0e7d4',
           200: '#77b800',  // LB Apple Green
           300: '#4a8f37',  // Slightly lighter than LB Coated Core Green

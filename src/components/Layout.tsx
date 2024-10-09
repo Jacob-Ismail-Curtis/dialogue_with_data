@@ -22,7 +22,7 @@ const Layout = ({
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="icon" href={favicon} />
     </Head>
-    <div className="min-h-screen bg[#e0f0e8]">{children}</div>
+    <div className="min-h-screen bg[#e0f0e8] pt-16">{children}</div>
   </div>
 )
 

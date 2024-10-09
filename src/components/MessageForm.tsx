@@ -16,13 +16,13 @@ const MessageForm = () => {
 
   return (
     <form className="relative mx-auto max-w-3xl rounded-t-xl" onSubmit={handleSubmit}>
-      <div className="border-gray-200 h-[130px] rounded-t-xl backdrop-blur border-t border-l border-r border-gray-500/10 dark:border-gray-50/[0.06] bg-white supports-backdrop-blur:bg-white/95 p-5">
+      <div className=" border-gray-200 h-[130px] rounded-t-xl backdrop-blur border-t border-l border-r border-gray-500/10 dark:border-gray-50/[0.06] bg-white supports-backdrop-blur:bg-white/95 p-5">
         <label htmlFor="content" className="sr-only">
           Your message
         </label>
         <TextArea
           name="content"
-          placeholder="Enter your message here..."
+          placeholder="Enter your query here..."
           rows={3}
           value={content}
           autoFocus
