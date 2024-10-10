@@ -1,5 +1,4 @@
-// components/MessageForm.tsx
-import { FaPaperPlane } from 'react-icons/fa' // Import the desired icon
+import { FaPaperPlane } from 'react-icons/fa'
 import { Button, TextArea } from '@apideck/components'
 import { useState } from 'react'
 import { useMessages } from 'utils/useMessages'
@@ -8,7 +7,7 @@ const MessageForm = () => {
   const [content, setContent] = useState('')
   const { addMessage } = useMessages()
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     addMessage(content)
     setContent('')
@@ -27,7 +26,7 @@ const MessageForm = () => {
           value={content}
           autoFocus
           className="!p-3 text-gray-900 border-0 ring-1 dark:ring-0 ring-gray-300/40 focus:ring-gray-300/80 focus:outline-none dark:text-white dark:placeholder-gray-400 dark:bg-gray-800/80 backdrop-blur shadow-none"
-          onChange={(e) => setContent(e.target.value)}
+          onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setContent(e.target.value)}
         />
         <div className="absolute right-8 bottom-10">
           <Button type="submit" size="small">

@@ -1,12 +1,12 @@
-import { FaTrash } from 'react-icons/fa';
-import { useMessages } from 'utils/useMessages';
+import { FaTrash } from 'react-icons/fa'
+import { useMessages } from 'utils/useMessages'
 
 const Sidebar = () => {
-  const { clearMessages } = useMessages(); // Access the clearMessages function
+  const { clearMessages } = useMessages() // Access the clearMessages function
 
   return (
     <div className="w-52 bg-primary-50 h-screen p-5 text-white fixed top-0 left-0 z-20 flex flex-col">
-      <h2 className="text-xl font-bold mt-16 text-center text-gray-800">Useful Links</h2>
+      <h2 className="text-xl font-bold mt-16 text-center text-primary-800">Useful Links</h2>
       <div className="mt-auto items-center">
         <button
           onClick={clearMessages}
@@ -17,7 +17,7 @@ const Sidebar = () => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
