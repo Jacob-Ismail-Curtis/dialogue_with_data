@@ -1,3 +1,4 @@
+// components/MessageForm.tsx
 import { FaPaperPlane } from 'react-icons/fa'
 import { useState } from 'react'
 import { useMessages } from 'utils/useMessages'

@@ -1,3 +1,4 @@
+// components/Sidebar.tsx
 import { FaTrash } from 'react-icons/fa'
 import { useMessages } from 'utils/useMessages'
 

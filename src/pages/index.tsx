@@ -1,3 +1,4 @@
+// pages/index.tsx
 import MessageForm from 'components/MessageForm'
 import MessagesList from 'components/MessageList'
 import { NextPage } from 'next'

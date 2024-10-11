@@ -6,7 +6,6 @@ The application uses the following components:
 
 - Next.js for the frontend and backend server
 - Tailwind CSS for styling
-- Apideck components for toast notifications and modals
 
 ## Getting Started
 

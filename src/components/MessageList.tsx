@@ -1,3 +1,4 @@
+// components/MessageList.tsx
 import { useEffect, useRef } from 'react'
 import { useMessages } from 'utils/useMessages'
 
